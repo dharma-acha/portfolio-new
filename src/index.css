@@ -632,7 +632,7 @@ b{
 @media (max-width: 600px) {
   #contact {
     padding: 10px;
-    max-width: 300px;
+    max-width: 350px;
   }
 
   #contact-form input,
@@ -654,7 +654,7 @@ b{
 @media (max-width: 400px) {
   #contact {
     padding: 5px;
-    max-width: 350px;
+    max-width: 330px;
   }
 
   #contact-form input,
