@@ -1,4 +1,4 @@
-import { Route, Routes,Switch } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Nav from './Components/Navbar';
 import Footer from './Components/Footer';
@@ -44,7 +44,7 @@ function App() {
                     <Nav />
                     <MoveToTop />
                     <Routes>
-                        <Switch>
+                        
                             <Route path="/" element={<Home />} />
                             <Route path="/About" element={<About />} />
                             <Route path="/skills" element={<Skillset />} />
@@ -53,8 +53,8 @@ function App() {
                             <Route path="/Project" element={<Project />} />
                             <Route path="/Resume" element={<Resume />} />
                             <Route path="/touch" element={<GetInTouch />} />
-                            <Redirect to="/" />
-                        </Switch>
+                            
+
                     </Routes>
                     <Footer />
                 </div>
