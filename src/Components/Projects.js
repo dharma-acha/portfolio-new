@@ -73,7 +73,7 @@ const Projects = () => {
                     onMouseOver={(e) => e.target.style.backgroundColor = '#0056b3'}
                     onMouseOut={(e) => e.target.style.backgroundColor = '#007BFF'}
                 >
-                    {showMore ? 'Show Less' : 'Show more Projects'}
+                    {showMore ? 'View Less' : 'View more Projects'}
                 </button>
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
