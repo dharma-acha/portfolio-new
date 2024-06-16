@@ -551,14 +551,14 @@ b{
   flex-direction: column;
   min-height: 80vh; /* Ensures the container takes up at least the full viewport height */
   text-align: center;
-  max-width: 500px;
+  max-width: 450px;
   width: 100%;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #031926; /* Change the background color of the form */
   border-radius: 8px;
   margin: 0 auto; /* Centers the form horizontally */
-  transform: translateX(-5px);
+  transform: translateX(-10px);
 }
 
 #contact-form {
@@ -586,7 +586,7 @@ b{
 
 #contact-form button {
   padding: 10px;
-  margin-top: 20px; /* Adjust margin to space out the button */
+  margin-top: 70px; /* Adjust margin to space out the button */
   font-size: 16px;
   cursor: pointer;
   background-color: #007bff;
