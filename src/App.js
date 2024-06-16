@@ -51,6 +51,7 @@ function App() {
                         <Route path="/Project" element={<Project/>}/>
                         <Route path="/Resume" element={<Resume/>}/>
                         <Route path="/touch" element={<GetInTouch/>}/>
+                        <Redirect to="/" />
                     </Routes>
                     <Footer/>
                 </div>
