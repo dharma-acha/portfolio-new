@@ -64,7 +64,7 @@ const Nav = () => {
                 <li onClick={hideMenu}><Link to="/experience"><FontAwesomeIcon icon={faBriefcase} />Experience</Link></li>
                 <li onClick={hideMenu}><Link to="/Project"><FaProjectDiagram /> Projects</Link></li>
                 <li onClick={hideMenu}><Link to="/Resume"><CgFileDocument/> Resume</Link></li>
-                <li onClick={hideMenu}><Link to="/touch"><FaMailBulk/>Get in Touch</Link></li>
+                <li onClick={hideMenu}><Link to="/contact"><FaMailBulk/>Get in Touch</Link></li>
 
             </ul>
         

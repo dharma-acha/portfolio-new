@@ -13,7 +13,7 @@ import HashLoader from 'react-spinners/HashLoader';
 import Skillset from './Components/skillSet';
 import Education from './Components/Education';
 import Experience from './Components/Experience';
-import GetInTouch from './Components/touch';
+import GetInTouch from './Components/contact';
 
 function App() {
     const [Loading, SetLoading] = useState(true);
@@ -52,7 +52,7 @@ function App() {
                             <Route path="/experience" element={<Experience />} />
                             <Route path="/Project" element={<Project />} />
                             <Route path="/Resume" element={<Resume />} />
-                            <Route path="/touch" element={<GetInTouch />} />
+                            <Route path="/contact" element={<GetInTouch />} />
                             
 
                     </Routes>
