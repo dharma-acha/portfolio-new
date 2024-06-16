@@ -363,6 +363,7 @@ b{
     line-height: 24px;
     letter-spacing: 0.6px;
     margin-bottom: 80px;
+    text-align: justify;
   }
   .AboutTextHeading{
     font-size: 26px;
@@ -411,6 +412,7 @@ b{
   }
   .AboutText{
     font-size: 16px;
+    text-align: justify;
   }
   .Avatar{
     width: 200px;
