@@ -654,7 +654,7 @@ b{
 @media (max-width: 400px) {
   #contact {
     padding: 5px;
-    max-width: 200px;
+    max-width: 350px;
   }
 
   #contact-form input,
