@@ -545,16 +545,23 @@ b{
 
 
 #contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 80vh; /* Ensures the container takes up at least the full viewport height */
   text-align: center;
   max-width: 600px;
   width: 100%;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color:#031926; /* Change the background color of the form */
+  background-color: #031926; /* Change the background color of the form */
   border-radius: 8px;
-  margin-top: 10%;
-  margin-left: 30%;
-  margin-bottom: 5%;
+  margin: 0 auto; /* Centers the form horizontally */
+}
+
+#contact-form {
+  width: 100%; /* Ensures the form takes up the full width of the container */
 }
 
 #contact-form form {
@@ -570,19 +577,20 @@ b{
   border-radius: 4px;
   background-color: #ffffff; /* Change the background color of input and textarea */
 }
+
 #contact-form textarea {
   margin: 10px 0;
+  height: 150px;
   padding: 10px;
   font-size: 16px;
   border: 1px solid #ccc;
-  height: 150px;
   border-radius: 4px;
   background-color: #ffffff; /* Change the background color of input and textarea */
 }
 
 #contact-form button {
   padding: 10px;
-  margin-top: 15%;
+  margin-top: 20px; /* Adjust margin to space out the button */
   font-size: 16px;
   cursor: pointer;
   background-color: #007bff;
@@ -596,9 +604,10 @@ b{
   background-color: #0056b3;
 }
 
-#contact h2 {
+/* #contact h2 {
   margin-bottom: 20px;
-}
+} */
+
 @keyframes fadeIn {
   0% {
       opacity: 0;
@@ -621,12 +630,12 @@ b{
 
 #thank-you-message {
   font-size: 1.5em;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   color: white;
   margin: 20px;
-  margin-bottom: 55%;
   animation: fadeIn 1s ease-in-out, slideDown 1s ease-in-out;
 }
+
 
 
 /* FOOTER */
