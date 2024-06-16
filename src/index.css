@@ -558,7 +558,7 @@ b{
   background-color: #031926; /* Change the background color of the form */
   border-radius: 8px;
   margin: 0 auto; /* Centers the form horizontally */
-  transform: translateX(-10px);
+  transform: translateX(-15px);
 }
 
 #contact-form {
