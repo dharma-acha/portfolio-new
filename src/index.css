@@ -619,11 +619,21 @@ b{
 }
 
 #thank-you-message {
+  display: flex;
   font-size: 1.5em;
   font-family: 'Times New Roman', Times, serif;
   color: white;
-  margin: 20px;
+  /* margin: 20px; */
   animation: fadeIn 1s ease-in-out, slideDown 1s ease-in-out;
+}
+
+.thank-you-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  flex-direction: column;
+  text-align: center;
 }
 
 /* Media Queries */

@@ -43,10 +43,12 @@ const ContactForm = () => {
 
     return (
         <>
-            <h1 className='SkillsHeading' style={{ marginTop: '100px' }}> Contact <b> me </b> </h1>
+            {!submitted && (
+                <h1 className='SkillsHeading' style={{ marginTop: '100px' }}> Contact <b> me </b> </h1>
+            )}
             <div id="contact">
                 {submitted ? (
-                    <div>
+                    <div className="thank-you-container">
                         {showConfetti && <Confetti />}
                         <div id="thank-you-message">Thank you for your message!</div>
                     </div>
