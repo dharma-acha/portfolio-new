@@ -542,14 +542,12 @@ b{
 /* Get in touch */
 
 
-
-
 #contact {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 80vh; /* Ensures the container takes up at least the full viewport height */
+  min-height: 60vh; /* Ensures the container takes up at least the full viewport height */
   text-align: center;
   max-width: 550px;
   width: 100%;

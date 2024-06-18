@@ -42,36 +42,39 @@ const ContactForm = () => {
     };
 
     return (
-        <div id="contact">
-            {submitted ? (
-                <div>
-                    {showConfetti && <Confetti />}
-                    <div id="thank-you-message">Thank you for your message!</div>
-                </div>
-            ) : (
-                <div id="contact-form">
-                    <form onSubmit={handleSubmit}>
-                        <input type="hidden" name="subject" value="Contact request from personal website" />
-                        <input
-                            type="email"
-                            name="replyto"
-                            placeholder="Your email"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                            required
-                        />
-                        <textarea
-                            name="message"
-                            placeholder="Your message"
-                            value={message}
-                            onChange={(e) => setMessage(e.target.value)}
-                            required
-                        ></textarea>
-                        <Button type="submit" variant="primary">Send</Button>
-                    </form>
-                </div>
-            )}
-        </div>
+        <>
+            <h1 className='SkillsHeading' style={{ marginTop: '100px' }}> Contact <b> me </b> </h1>
+            <div id="contact">
+                {submitted ? (
+                    <div>
+                        {showConfetti && <Confetti />}
+                        <div id="thank-you-message">Thank you for your message!</div>
+                    </div>
+                ) : (
+                    <div id="contact-form">
+                        <form onSubmit={handleSubmit}>
+                            <input type="hidden" name="subject" value="Contact request from personal website" />
+                            <input
+                                type="email"
+                                name="replyto"
+                                placeholder="Your email"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                                required
+                            />
+                            <textarea
+                                name="message"
+                                placeholder="Your message"
+                                value={message}
+                                onChange={(e) => setMessage(e.target.value)}
+                                required
+                            ></textarea>
+                            <Button type="submit" variant="primary">Send</Button>
+                        </form>
+                    </div>
+                )}
+            </div>
+        </>
     );
 };
 
