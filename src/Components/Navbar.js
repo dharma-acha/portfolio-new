@@ -48,7 +48,7 @@ const Nav = () => {
     return (
         <nav className={navbarblur? 'Navbar blur':'Navbar'}> 
  
-            <h1 className='Logo'><Link style={{ textDecoration: 'none', color: 'white' }} to="/">DA </Link></h1>
+            <h1 className='Logo'><Link style={{ textDecoration: 'none', color: 'white' }} to="/">DA.</Link></h1>
 
             <div className='Hamburger' onClick={showMenu}>
                 <span className='bar'></span>
