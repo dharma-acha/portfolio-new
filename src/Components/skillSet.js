@@ -29,6 +29,8 @@ const Skillset = () => {
                 <Skills skill='Python' />
                 <Skills skill='Streamlit' />
                 <Skills skill='jQuery' />
+                <Skills skill='AWS' />
+
 
 
                 

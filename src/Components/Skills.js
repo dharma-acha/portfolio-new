@@ -8,7 +8,7 @@ import { SiSass } from 'react-icons/si';
 import { FaAndroid } from 'react-icons/fa';
 import { FaMicrosoft } from 'react-icons/fa';
 import { FaGoogle } from 'react-icons/fa';
-import { SiStreamlit } from 'react-icons/si';
+import { SiStreamlit,SiAmazonaws } from 'react-icons/si';
 
 import { SiJquery } from 'react-icons/si';
 
@@ -37,6 +37,7 @@ const Skills = ({ skill }) => {
         Streamlit: <SiStreamlit/>,
         jQuery: <SiJquery/>,
         Typescript:<SiTypescript/>,
+        AWS: <SiAmazonaws />
         
     };
 
