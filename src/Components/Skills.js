@@ -6,11 +6,10 @@ import { DiPython } from 'react-icons/di';
 import { SiMicrosoftazure } from 'react-icons/si';
 import { SiSass } from 'react-icons/si';
 import { FaAndroid } from 'react-icons/fa';
-import { FaMicrosoft } from 'react-icons/fa';
+import { FaMicrosoft} from 'react-icons/fa';
 import { FaGoogle } from 'react-icons/fa';
-import { SiStreamlit,SiAmazonaws } from 'react-icons/si';
-
-import { SiJquery } from 'react-icons/si';
+import { SiStreamlit,SiAmazonaws, SiApachedruid,SiPostgresql, SiR, SiC, SiCplusplus, SiLinux,} from 'react-icons/si';
+import { SiJquery, SiGraphql, SiRedux,SiPandas, SiPytorch, SiTensorflow, SiKeras, SiNumpy, SiJest,SiScikitlearn} from 'react-icons/si';
 
 
 const Skills = ({ skill }) => {
@@ -37,8 +36,23 @@ const Skills = ({ skill }) => {
         Streamlit: <SiStreamlit/>,
         jQuery: <SiJquery/>,
         Typescript:<SiTypescript/>,
-        AWS: <SiAmazonaws />
-        
+        AWS: <SiAmazonaws />,
+        Mapreduce: <SiApachedruid />,
+        Postgresql: <SiPostgresql />,
+        R: <SiR />,
+        C: <SiC />,
+        Cplusplus: <SiCplusplus />,
+        Linux: <SiLinux />,
+        GraphQl: <SiGraphql />, // Icon for GraphQL
+        Redux: <SiRedux />, // Icon for Redux
+        Pandas: <SiPandas />, // Icon for Pandas
+        PyTorch: <SiPytorch />, // Icon for PyTorch
+        Tensorflow: <SiTensorflow />, // Icon for TensorFlow
+        Keras: <SiKeras />, // Icon for Keras
+        Numpy: <SiNumpy />, // Icon for NumPy
+        Jest: <SiJest />, // Icon for Jest
+        Scikitlearn: <SiScikitlearn />, // Icon for Scikit-Learn
+
     };
 
     return (

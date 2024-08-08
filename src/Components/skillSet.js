@@ -8,6 +8,7 @@ const Skillset = () => {
             <div className='skills'>
         
                 <Skills skill='React' />
+                <Skills skill='Redux' />
                 <Skills skill='Node' />
                 <Skills skill='Express' />
                 <Skills skill='MongoDb' />
@@ -30,6 +31,22 @@ const Skillset = () => {
                 <Skills skill='Streamlit' />
                 <Skills skill='jQuery' />
                 <Skills skill='AWS' />
+                <Skills skill='Mapreduce' />
+                <Skills skill='Postgresql' />
+                <Skills skill='R' />
+                <Skills skill='C' />
+                <Skills skill='Cplusplus' />
+                <Skills skill='Linux' />
+                <Skills skill='GraphQl' />
+                <Skills skill='Pandas' />
+                <Skills skill='PyTorch' />
+                <Skills skill='Tensorflow' />
+                <Skills skill='Keras' />
+                <Skills skill='Numpy' />
+                <Skills skill='Jest' />
+                <Skills skill='Scikitlearn' />
+                
+
 
 
 
