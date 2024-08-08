@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaReact, FaCss3Alt,FaDocker, FaGitAlt,FaGithub, FaHtml5, FaBootstrap } from 'react-icons/fa';
+import { FaReact,FaNpm, FaCss3Alt,FaDocker, FaGitAlt,FaGithub, FaHtml5, FaBootstrap } from 'react-icons/fa';
 import { DiNodejs, DiJavascript1,DiMysql } from 'react-icons/di';
 import { SiExpress, SiMongodb,SiPostman,SiTypescript } from 'react-icons/si';
 import { DiPython } from 'react-icons/di';
@@ -52,7 +52,7 @@ const Skills = ({ skill }) => {
         Numpy: <SiNumpy />, // Icon for NumPy
         Jest: <SiJest />, // Icon for Jest
         Scikitlearn: <SiScikitlearn />, // Icon for Scikit-Learn
-
+        NPM: <FaNpm />
     };
 
     return (

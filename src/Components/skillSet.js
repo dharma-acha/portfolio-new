@@ -14,6 +14,7 @@ const Skillset = () => {
                 <Skills skill='MongoDb' />
                 <Skills skill='Github' />
                 <Skills skill='Javascript' />
+                <Skills skill='NPM' />
                 <Skills skill='Html' />
                 <Skills skill='Postman' />
                 <Skills skill='Docker' />
